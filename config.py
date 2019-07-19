@@ -1,0 +1,5 @@
+host_value = 'localhost'
+user_value = 'postgres'
+password_value = 'Greyhound1980!'
+port_value = '5432'
+database_value = 'Employees'
