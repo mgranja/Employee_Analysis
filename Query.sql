@@ -33,7 +33,7 @@ FROM public."Employees" AS e
       ON (d.dept_no = de.dept_no)
 
   
-  -- DA #4 
+-- DA #4 
 
 SELECT e.emp_no AS "Employee_Number",
 e.last_name AS "Last_Name",
@@ -67,7 +67,6 @@ ON (d.dept_no = de.dept_no)
 	WHERE d.dept_name = 'Sales'
 
  --DA#7
-
 	
 SELECT e.emp_no AS "Employee_Number",
 e.last_name AS "Last_Name",
@@ -79,7 +78,6 @@ ON (e.emp_no = de.emp_no)
 JOIN public."Departments" AS d
 ON (d.dept_no = de.dept_no)
 	WHERE d.dept_name IN ('Sales', 'Development')
-
 
 
 --DA#8
